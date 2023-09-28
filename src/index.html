@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML + CSS + JS</h1>
+      <h2>FULL COURSE</h2>
+    </header>
+
+    <button id="themeButton">Cambiar Tema</button>
+    <button id="color-changing-text">Cambiar Tema2</button>
+    <p>Este es un párrafo de ejemplo.</p>
+
+    <h1>Button with basic customisation</h1>
+    <h2>Next properties was applied</h2>
+
+    <!-- un order list -->
+    <ul>
+      <li>background-color: #4caf50;</li>
+      <li>border: none;</li>
+      <li>color: white;</li>
+      <li>padding: 15px 32px;</li>
+      <li>text-align: center;</li>
+      <li>text-decoration: none;</li>
+      <li>display: inline-block;</li>
+      <li>
+        box-shadow:
+        <ol>
+          <li>5px 5px lightblue</li>
+          <li>10px 10px green</li>
+          <li>15px 15px blue</li>
+        </ol>
+      </li>
+      <li>
+        hover:
+        <ol>
+          <li>background-color: #3e8e41;</li>
+          <li>transition: ease 200ms;</li>
+        </ol>
+      </li>
+    </ul>
+    <button class="button_1">Hover me!</button>
+
+    <h1>unorder list</h1>
+    <ul>
+      <li>unorder list</li>
+      <li>unorder list</li>
+      <li>unorder list</li>
+      <li>
+        unorder list
+        <ul>
+          <li>nested unorder list</li>
+          <li>nested unorder list</li>
+          <li>
+            nested unorder list
+            <ul>
+              <li>2x nested unorder list</li>
+              <li>2x nested unorder list</li>
+              <li>
+                2x nested unorder list
+                <ul>
+                  <li>3x nested unorder list</li>
+                  <li>3x nested unorder list</li>
+                  <li>3x nested unorder list</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ol>
+      <li>order list</li>
+      <li>order list</li>
+      <li>
+        order list
+        <ol>
+          <li>nested order list</li>
+          <li>nested order list</li>
+          <li>
+            nested order list
+            <ol>
+              <li>2x nested order list</li>
+              <li>2x nested order list</li>
+              <li>2x nested order list</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+
+    <!-- HTLM ELEMENTS -->
+    <h1>HTML Elements</h1>
+
+    <article id="anchor_tag" class="elements_article">
+      <h1 class="h1_center">La etiqueta <code>&lt;a&gt;</code></h1>
+      <code class="code_head"
+        ><span class="code_white">&lt;</span>a<span class="code_white"
+          >&gt;</span
+        >
+        <span class="code_white">&lt;/</span>a<span class="code_white"
+          >&gt;</span
+        ></code
+      >
+      <!--<a></a> element-->
+      <article>
+        <p>Para que el usuario descarge mediante la etiqueta <code>a</code></p>
+        <a download="Tarjetas" href="./assets/tarjetas.jpg">get here</a><br />
+        <a href="https://www.example.com" target="_self">target: _self</a><br />
+        <p>Abre el enlace en la misma pestaña</p>
+        <a href="https://www.example.com" target="_blank">target: _blank</a
+        ><br />
+        <p>Crea una nueva pestana y abre el enlace en ella</p>
+        <a href="https://www.example.com" target="_top"> target: _top</a><br />
+        <p>Abre el enlace en el contexto mas alto</p>
+        <a href="https://www.example.com" target="_parent">target: _parent</a
+        ><br />
+
+        <a href="#form_lessons">Go to Form lessos</a><br />
+      </article>
+
+      <br />
+      <br />
+    </article>
+
+    <code class="code_head">&lt;em&gt;&lt;/em&gt;</code>
+    <p>Just <em>do</em> it already</p>
+    <code class="code_head">&lt;strong&gt;&lt;/strong&gt;</code>
+    <p>Just <strong>do</strong> it already</p>
+    <code class="code_head">&lt;i&gt;&lt;/i&gt;</code>
+    <p>Just <i>do</i> it already</p>
+    <code class="code_head">&lt;sub&gt;&lt;/sub&gt;</code>
+    <p>
+      Almost every developer's favorite molecule is
+      C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as
+      "caffeine."
+    </p>
+    <code class="code_head">&lt;sup&gt;&lt;/sup&gt;</code>
+    <p>
+      The <em>Pythagorean theorem</em> is often expressed as the following
+      equation:
+    </p>
+
+    <p>
+      <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> =
+      <var>c<sup>2</sup></var>
+    </p>
+
+    <code class="code_head">&lt;span&gt;&lt;/span&gt;</code>
+    <p>
+      para dar estilos y
+      <span
+        style="
+          background-color: rosybrown;
+          color: blue;
+          border-radius: 8px;
+          padding: 4px;
+        "
+        >mariconadas</span
+      >
+      en el textos
+    </p>
+
+    <hr />
+    <h1>Inline VS BLock ELements</h1>
+    <h2 class="inline">Inline</h2>
+    <div class="inline_div">Inline div</div>
+    <div class="block_div">Block div</div>
+    <div class="block_inline_div">Inline-Block div</div>
+
+    <hr />
+
+    <h1 id="form_lessons">FORM</h1>
+    <code class="code_head">&lt;form&gt;&lt;/form&gt;</code>
+
+    <form action="" method="get">
+      <input autocapitalize="on" />
+      <input class="block" type="checkbox" />
+      <label for="name">Name</label>
+      <input
+        class="block"
+        type="text"
+        autocomplete="given-name"
+        placeholder="Name"
+        id="name"
+        name="name"
+      />
+      <input class="block" type="button" />
+    </form>
+    <hr />
+    <div class="banner_box">
+      <h2 class="">Open daily 9am - 4pm</h2>
+      <h1 class="h1">BANANA PEEL NOW OPEN!</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+        dignissimos, facere optio perspiciatis voluptate doloremque?
+      </p>
+      <button class="banner_button">Lift $ terrain status</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
