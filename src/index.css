@@ -1,8 +1,9 @@
 :root {
-  --background_dark_theme: rgb(49, 50, 52);
-  --background_light_theme: rgb(217, 218, 220);
+  --background_dark_theme: rgb(19, 32, 58);
+  --background_light_theme: rgb(50, 89, 168);
 
-  --primary_color_text: rgb(255, 255, 255);
+  --primary_color_text_light: rgb(0, 0, 0);
+  --primary_color_text_dark: rgb(255, 255, 255);
 }
 @font-face {
   font-family: "Montserrat";
@@ -15,13 +16,21 @@
 * {
   box-sizing: border-box;
 }
+
+
+
+
 body {
   font-family: Montserrat;
-  background: var(--background_dark_theme);
-  color: var(--primary_color_text);
-  margin: 32px;
-  padding: 32px;
+  background: var(--background_light_theme);
+  color: var(--primary_color_text_light);
+
 }
+body.dark {
+  background: var(--background_dark_theme);
+  color: var(--primary_color_text_dark);
+}
+
 h1 {
   font-family: CroissantOne;
 }

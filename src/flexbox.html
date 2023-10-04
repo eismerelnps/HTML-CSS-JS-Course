@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="flexbox.css" />
+    <title>Flex Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Francois+One&family=Gilda+Display&family=Quicksand:wght@400;500;700&family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <section class="flex-head">
+        <h1>Flex Box</h1>
+        <p>
+          El módulo de diseño de caja flexible CSS define un modelo de caja CSS
+          optimizado para el diseño de interfaz de usuario y el diseño de
+          elementos en una dimensión. En el modelo de diseño flexible, los hijos
+          de un contenedor flexible se pueden colocar en cualquier dirección y
+          pueden "flexionar" sus tamaños, ya sea creciendo para llenar el
+          espacio no utilizado o encogiéndose para evitar que el padre se
+          desborde. Tanto la alineación horizontal como vertical de los niños se
+          pueden manipular fácilmente.
+        </p>
+      </section>
+
+      <article id="properties" class="flex-article">
+        <section class="article-section">
+          <h2>Propiedades</h2>
+          <ul>
+            <li><a href="#properties">display</a></li>
+            <li><a href="#flex-direction">flex-direction</a></li>
+            <li><a href="#flex-wrap">flex-wrap</a></li>
+            <li><a href="#flex-flow">flex-flow</a></li>
+            <li><a href="#justify-content">justify-content</a></li>
+            <li><a href="#align-items">align-items</a></li>
+            <li><a href="#align-content">align-content</a></li>
+          </ul>
+        </section>
+        <div class="flex-container">
+          <div class="box" style="background-color: #00ff40"><p>1</p></div>
+          <div class="box" style="background-color: #ff0000"><p>2</p></div>
+          <div class="box" style="background-color: #001eff"><p>3</p></div>
+        </div>
+      </article>
+
+      <article id="flex-direction" class="flex-article">
+        <h2>flex-direction:</h2>
+        <p>
+          La propiedad CSS <code>flex-direction</code> establece cómo se colocan
+          los elementos flexibles en el contenedor flexible definiendo el eje
+          principal y la dirección (normal o invertida).
+        </p>
+        <section class="row">
+            <h3>row</h3>
+            <div class="flex-container-row">
+              <div class="box-row" style="background-color: #00ff40"><p>1</p></div>
+              <div class="box-row" style="background-color: #ff0000"><p>2</p></div>
+              <div class="box-row" style="background-color: #001eff"><p>3</p></div>
+            </div>
+          </section>
+        <section class="column">
+          <h3>column</h3>
+          <div class="flex-container-column">
+            <div class="box-column" style="background-color: #00ff40"><p>1</p></div>
+            <div class="box-column" style="background-color: #ff0000"><p>2</p></div>
+            <div class="box-column" style="background-color: #001eff"><p>3</p></div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
